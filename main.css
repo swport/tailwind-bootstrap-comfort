@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+
+.row {
+    @apply flex flex-wrap
+}
+
+.row > * {
+    @apply w-full max-w-full
+}
+
+.col {
+    @apply flex-1
+}
+
+
+@import "tailwindcss/utilities";
